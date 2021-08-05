@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Agenda-Firebase</string>
+  <string name="app_name">Agenda-Firebase</string>
+  <string name="favorite">Make favorite</string>
+  <string name="main_phone">Main *</string>
+  <string name="secondary_phone">Secondary</string>
+  <string name="btn_clean">Clean</string>
+  <string name="btn_list">List</string>
+  <string name="btn_save">Save</string>
+  <string name="notes">Notes</string>
+  <string name="address">Address *</string>
+  <string name="name">Name *</string>
+  <string name="new_contact">New</string>
+  <string name="text">Elements</string>
+  <string name="message">Contact saved!</string>
+  <string name="error_message">Fill all the inputs marked</string>
+  <string name="edit_message">Contact updated!</string>
+  <string name="available_contacts">AVAILABLE CONTACTS</string>
+  <string name="phone_input">Phone here</string>
+  <string name="name_input">Name here</string>
+  <string name="btn_edit">Edit</string>
+  <string name="btn_delete">Delete</string>
 </resources>
