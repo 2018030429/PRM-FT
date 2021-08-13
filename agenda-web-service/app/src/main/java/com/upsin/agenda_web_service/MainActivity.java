@@ -70,12 +70,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           boolean isCompleted = true;
           if (this._txtName.getText().toString().equals("")) {
             this._txtName.setError("Fill the name");
+            isCompleted = false;
           }
           if (this._txtMainPhone.getText().toString().equals("")) {
             this._txtMainPhone.setError("Fill the main phone");
+            isCompleted = false;
           }
           if (this._txtAddress.getText().toString().equals("")) {
             this._txtAddress.setError("Fill the address");
+            isCompleted = false;
           }
           if (isCompleted) {
             Contact contact = new Contact();
