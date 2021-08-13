@@ -29,7 +29,7 @@ public class ProcessPHP implements Response.Listener<JSONObject>, Response.Error
       "&telefono1=" + c.get_main_phone() + "&telefono2="  + c.get_secondary_phone() +
       "&direccion=" + c.get_address()    + "&notas="      + c.get_notes() +
       "&favorite="  + c.get_isFavorite() + "&idMovil="    + c.get_idMobil();
-    url.replace(" ", "%20");
+    url = url.replace(" ", "%20");
     this.jsonObjectRequest = new JsonObjectRequest(
       Request.Method.GET, url, null, this, this
     );
@@ -41,7 +41,7 @@ public class ProcessPHP implements Response.Listener<JSONObject>, Response.Error
       "&telefono1=" + c.get_main_phone() + "&telefono2="  + c.get_secondary_phone() +
       "&direccion=" + c.get_address()    + "&notas="      + c.get_notes() +
       "&favorite="  + c.get_isFavorite() + "&idMovil="    + c.get_idMobil();
-    url.replace(" ", "%20");
+    url = url.replace(" ", "%20");
     this.jsonObjectRequest = new JsonObjectRequest(
       Request.Method.GET, url, null, this, this
     );
