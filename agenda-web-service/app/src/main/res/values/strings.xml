@@ -1,3 +1,18 @@
 <resources>
   <string name="app_name">Agenda-web-service</string>
+  <string name="name">Name</string>
+  <string name="main_phone">Main Phone</string>
+  <string name="secondary_phone">Secondary Phone</string>
+  <string name="address">Address</string>
+  <string name="notes">Notes</string>
+  <string name="favorite">Favorite</string>
+  <string name="btn_clear">Clear</string>
+  <string name="btn_save">Save</string>
+  <string name="btn_list">List</string>
+  <string name="new_contact">New Contact</string>
+  <string name="available_contacts">AVAILABLE CONTACTS</string>
+  <string name="contact_name">Name here</string>
+  <string name="contact_main_phone">Main Phone here</string>
+  <string name="btn_update">Update</string>
+  <string name="btn_delete">Delete</string>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+    <TextView
+      android:id="@+id/lblContactName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/contact_name"
+      android:textSize="25sp" />
+    <TextView
+      android:id="@+id/lblMainPhone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/contact_main_phone"
+      android:layout_below="@+id/lblContactName"
+      android:textSize="25sp" />
+    <TableLayout
+      android:layout_centerVertical="true"
+      android:layout_alignParentEnd="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <TableRow>
+        <Button
+          android:id="@+id/btnUpdate"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:text="@string/btn_update" />
+      </TableRow>
+      <TableRow>
+        <Button
+          android:id="@+id/btnDelete"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:text="@string/btn_delete" />
+      </TableRow>
+    </TableLayout>
+  </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
